@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+}
+.navbar1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(128, 195, 197);
+    border-radius: 10px;
+    color: black;
+    gap: 10px;
+    padding: 8px;
+}
+.navbar1 li{
+    padding: 3px;
+    border: 1px 1px 1px 1px solid black;
+    border-radius: 5px ; 
+    box-shadow: 1.5px 1.5px 1px black;
+    
+}
+.navbar1 li:hover{
+    color: rgb(232, 232, 232);
+    transition: .2s;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 1.5px 1.5px 1px white;
+}
+
+.navbar2{
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 8px;
+    gap: 4%;
+}
+.navbar2 img:hover{
+    transform: scale(1.18);
+    transition: 1s;
+}
+
+.shop{
+    height: auto;
+    width: 100%;
+    background-color:rgb(231, 231, 249);
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+}
+
+.shop a{
+    color: blue;
+    margin-top: 0%;
+    text-decoration: none;
+}
+
+.iphone{
+    height:auto;
+    width: 100%;
+    display: flex;
+    gap: 20%;
+    position: relative;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border-spacing: 60px;
+    margin: 5px;
+    text-align: center;
+    
+}
+.iphone h1{
+    height:auto;
+    width:auto;
+    background-color:rgba(20, 161, 166, 0.701) ;
+    font-size: xxx-large;
+    padding-bottom: 1px;
+    border-radius: 5px;
+    
+}
+/* .iphone:hover{
+    color: white;
+    transition: 0.2s;;
+    transform: scale(1.1);
+} */
+.iphone h3{
+    height:auto;
+    width:auto;
+    padding-bottom: 5px;
+    font-size:x-large;
+    margin: 5px;
+    text-align: center;
+    background-color:rgba(20, 161, 166, 0.701);
+    border-radius: 5px;
+    
+}
+
+.iphone_video{
+    height: auto;
+    width: 100%;
+    padding-top: 0%;
+    position: relative;
+    padding-top: 56.25%;
+   
+}
+
+.iphone_video video{
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    width:95%;
+    height: 95%;
+    object-fit: cover;
+    overflow: clip;
+    border-radius:15px;
+}
+.all_iphones{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: rgb(168, 237, 214);
+
+}
+.images{ 
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 40px;
+    
+   
+}
+
+.images img{
+    height: 350px;
+    width: 250px;
+    border-radius:8%;
+    justify-content: space-around;
+    transition: 1s ease-in-out; 
+    box-shadow: 2px 6px 6px 2px rgb(134, 130, 130); 
+  
+}
+
+ .images img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.padding-for-img{
+    padding:40x;
+}
+
+.discription{
+    text-align: center;
+    position: relative;
+
+}
+.or{
+ position: relative;
+ bottom: 10px;
+}
+.discription button{
+    border-radius:7px;
+    padding:1px 5px 1px 5px;
+    margin-right:10px;
+    position: relative;
+    bottom: 8px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.66);
+}
+.discription a{
+    text-decoration: none;
+    position: relative;
+    bottom: 7px;
+    
+}
+.carousel-caption h5{
+    color: rgb(235, 231, 231);
+    text-shadow:rgb(235, 19, 19) 2px 2px 2px;
+    
+}
+
+.carousel-caption p{
+    color: white;
+    text-shadow:rgb(24, 23, 23) 2px 2px 2px;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box1,#box3,#box2{
+    height: 460px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#box1{
+    display: flex;
+    justify-content:space-evenly;
+}
+#box2{
+    text-align: justify;
+}
+ #box3 i{
+    border: 1px solid white;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 3px;
+ }
+ .contact-us{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-top: 10px;
+   text-decoration:solid;
+   background-color: aliceblue;
+   color: black;
+  
+ }
