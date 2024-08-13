@@ -1,3 +1,3 @@
- https://khanabdul007.github.io/iPhoneWebSite/
+ https://myiphonewebsite007.netlify.app/
           customize iPhone website 
  and here's the link of iPhone web page
